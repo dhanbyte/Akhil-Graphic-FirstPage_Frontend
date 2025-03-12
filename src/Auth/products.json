@@ -1,0 +1,62 @@
+ { "product":[
+      {
+        "id": 1,
+        "name": "Stopper-Compl Bobbin Rod",
+        "brand": "Toyota",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Book.jpg"
+      },
+      {
+        "id": 2,
+        "name": "IRO2231 Weft Storage",
+        "brand": "Staubli",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Mug.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Staubli Jacquard Hook 1",
+        "brand": "Staubli",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/T-Shirt.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Encoder Part",
+        "brand": "Tsudakoma",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/3.jpg"
+      },
+    
+    
+      {
+        "id": 5,
+        "name": "Weaving Beam",
+        "brand": "Picanol",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/2.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Yarn Cutter",
+        "brand": "Toyota",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Logo-Design.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Tension Spring",
+        "brand": "Staubli",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Sticker.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Loom Sensor",
+        "brand": "Tsudakoma",
+        "link": "#",
+        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Packaging-Box.jpg"
+      }
+    ]
+}
+  

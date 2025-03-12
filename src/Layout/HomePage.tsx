@@ -1,12 +1,14 @@
-import UsermainPage from "../components/UsermainPage";
+import FeatureProducts from "../Right-side files/FeaturedProducts";
+import UsermainPage from "../Right-side files/UsermainPage";
 
 
 export default function HomePage() {
 
 
   return (
-    <div>
+    <div className="md:pl-[15vw]">
             <UsermainPage />
+            <FeatureProducts />
     </div>
   )
 }

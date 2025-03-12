@@ -31,7 +31,7 @@ export default function Sidebar() {
 
   return (
     <div>
-      <aside className="w-64  bg-white h-screen shadow-xl p-4 text-gray-700">
+      <aside className="w-64   bg-white h-screen shadow-xl p-4 text-gray-700">
         <nav>
           <h2 className="text-sm font-semibold text-gray-400 mb-2">DASHBOARDS</h2>
 
