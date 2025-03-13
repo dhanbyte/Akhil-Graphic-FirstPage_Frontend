@@ -6,6 +6,11 @@ import MainlayoutPage from './Layout/MainlayoutPage.tsx'
 import Navbar from './components/Navbar.tsx'
 import HomePage from './Layout/HomePage.tsx'
 import Services from './Left-side/Leftside-Pages/Services.tsx'
+import BusinessCards from './Left-side/Leftside-Pages/BusinessCards.tsx'
+import FlyersBrochures from './Left-side/Leftside-Pages/Flers&Brochures.tsx'
+import PostereBanners from './Left-side/Leftside-Pages/PostereBanners.tsx'
+import LogoDesign from './Left-side/Leftside-Pages/LogoDesign.tsx'
+import FlexBanner from './Left-side/Leftside-Pages/FlexBanner.tsx'
   const router = createBrowserRouter([
     {
       path: '/',
@@ -24,6 +29,27 @@ import Services from './Left-side/Leftside-Pages/Services.tsx'
           path:'/services',
           element:<Services/>
         },
+        {
+          path:'/businesscards',
+          element:<BusinessCards/>
+        },
+        {
+          path:'/flersbrochures',
+          element:<FlyersBrochures/>
+        },
+        {
+          path:'/posterebanners',
+          element:<PostereBanners/>
+        },
+        {
+          path:'/logodesign',
+          element:<LogoDesign/>
+        },
+        {
+          path:'/flexbanner',
+          element:<FlexBanner/>
+        },
+        
       ],
     },
   ])

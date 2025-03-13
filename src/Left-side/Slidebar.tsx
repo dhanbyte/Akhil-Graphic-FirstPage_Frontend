@@ -70,29 +70,29 @@ export default function Sidebar() {
 
                 {product && (
                   <div>
-                    <Link to="/productslist" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/businesscards" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
                         <MdChecklist /> Business Cards
                       </span>
                     </Link>
-                    <Link to="/productsdetails" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/flersbrochures" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
                         <TbListDetails /> Flyers & Brochures
                       </span>
                     </Link>
-                    <Link to="/addproduct" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/posterebanners" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
                         <MdAddBusiness /> Posters & Banners
                       </span>
                     </Link>
-                    <Link to="/addproduct" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/logodesign" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
-                        <MdAddBusiness /> Custom Packaging
+                        <MdAddBusiness /> Logo Design
                       </span>
                     </Link>
-                    <Link to="/addproduct" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/flexbanner" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
-                        <MdAddBusiness /> Invitations
+                        <MdAddBusiness /> Flex Banner
                       </span>
                     </Link>
                   </div>
