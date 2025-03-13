@@ -5,6 +5,7 @@ import './index.css'
 import MainlayoutPage from './Layout/MainlayoutPage.tsx'
 import Navbar from './components/Navbar.tsx'
 import HomePage from './Layout/HomePage.tsx'
+import Services from './Left-side/Leftside-Pages/Services.tsx'
   const router = createBrowserRouter([
     {
       path: '/',
@@ -18,6 +19,10 @@ import HomePage from './Layout/HomePage.tsx'
         {
           path: '/Navbar',
           element: <Navbar />,
+        },
+        {
+          path:'/services',
+          element:<Services/>
         },
       ],
     },
