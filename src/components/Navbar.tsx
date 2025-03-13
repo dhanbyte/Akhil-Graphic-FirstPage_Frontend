@@ -1,8 +1,8 @@
 import { FiSearch, FiGrid, FiBell, } from "react-icons/fi";
 import { Link } from "react-router-dom";
-
 const Navbar = () => {
   return (
+   
     <header className="flex  justify-between items-center bg-white  text-gray-700  px-6 pr-12 shadow-sm ">
       {/* Left Section */}
       <div className="flex items-center  gap-4 ">
@@ -63,6 +63,7 @@ const Navbar = () => {
         </div>
       </div>
     </header>
+
   );
 };
 

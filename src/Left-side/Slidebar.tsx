@@ -18,7 +18,7 @@ import {
 } from "react-icons/md";
 import { FaMoneyBillTransfer, FaUsers } from "react-icons/fa6";
 import { TbListDetails } from "react-icons/tb";
-
+import  AnimatedWrapper from "../components/AnimatedWrapper";
 export default function Sidebar() {
   const [product, setProduct] = useState(false);
   const [order, setOrder] = useState(false);
@@ -31,6 +31,7 @@ export default function Sidebar() {
   return (
     <div className="overflow-y-auto">
       <aside className="w-64 text-sm  bg-white h-screen shadow-xl p-4 text-gray-700">
+        <AnimatedWrapper from="left">
         <nav>
           <h2 className="text-sm font-semibold text-gray-400 mb-2">User Dashboard</h2>
 
@@ -167,6 +168,7 @@ export default function Sidebar() {
           </Link>
 
         </nav>
+    </AnimatedWrapper>
       </aside>
     </div>
   );

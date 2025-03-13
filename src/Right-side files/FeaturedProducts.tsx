@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
 import products  from "../JsonFiles/products.json";
+import AnimatedWrapper from "../components/AnimatedWrapper";
 
 export default function FeatureProducts() {
   
   return (
     <div className="p-8 w-full space-y-6">
+
       <h1 className="text-3xl font-bold text-center mb-6">Featured Products</h1>
 
       <div className="flex flex-wrap justify-center py-8 gap-6">
         {products.map((product: any) => (
+      <AnimatedWrapper from="top">
           <div key={product.id} className="w-[250px] h-[350px] shadow border-amber-600 rounded-md overflow-hidden bg-white hover:shadow-2xl transition-shadow duration-200">
             <img src={product.image} alt={product.name} className="w-full h-48 object-cover" />
             <div className="p-4 py-4">
@@ -21,6 +24,7 @@ export default function FeatureProducts() {
               </Link>
 
           </div>
+        </AnimatedWrapper>
         ))}
       </div>
     </div>
