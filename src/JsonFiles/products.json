@@ -1,62 +1,254 @@
- { "product":[
-      {
-        "id": 1,
-        "name": "Stopper-Compl Bobbin Rod",
-        "brand": "Toyota",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Book.jpg"
-      },
-      {
-        "id": 2,
-        "name": "IRO2231 Weft Storage",
-        "brand": "Staubli",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Mug.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Staubli Jacquard Hook 1",
-        "brand": "Staubli",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/T-Shirt.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Encoder Part",
-        "brand": "Tsudakoma",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/3.jpg"
-      },
-    
-    
-      {
-        "id": 5,
-        "name": "Weaving Beam",
-        "brand": "Picanol",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/2.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Yarn Cutter",
-        "brand": "Toyota",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Logo-Design.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Tension Spring",
-        "brand": "Staubli",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Sticker.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Loom Sensor",
-        "brand": "Tsudakoma",
-        "link": "#",
-        "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Packaging-Box.jpg"
-      }
-    ]
-}
-  
+[
+  {
+    "id": 1,
+    "name": "Book",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Flex-Banner.jpg",
+    "price": 29.99,
+    "type": "stationery"
+  },
+  {
+    "id": 2,
+    "name": "Flex Banner",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Mug.jpg",
+    "price": 29.99,
+    "type": "banner"
+  },
+  {
+    "id": 3,
+    "name": "Carry Bag",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Carry-Bag.jpg",
+    "price": 29.99,
+    "type": "packaging"
+  },
+  {
+    "id": 4,
+    "name": "Envelope",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Envelope.jpg",
+    "price": 29.99,
+    "type": "stationery"
+  },
+  {
+    "id": 5,
+    "name": "Business Card",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Business-Card.jpg",
+    "price": 29.99,
+    "type": "card"
+  },
+  {
+    "id": 6,
+    "name": "Letterhead",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Letterhead.jpg",
+    "price": 29.99,
+    "type": "stationery"
+  },
+  {
+    "id": 7,
+    "name": "Mug",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Mug.jpg",
+    "price": 29.99,
+    "type": "gift"
+  },
+  {
+    "id": 8,
+    "name": "Poster",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Poster.jpg",
+    "price": 19.99,
+    "type": "banner"
+  },
+  {
+    "id": 9,
+    "name": "Sticker",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Sticker.jpg",
+    "price": 9.99,
+    "type": "accessory"
+  },
+  {
+    "id": 10,
+    "name": "Notebook",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Notebook.jpg",
+    "price": 15.99,
+    "type": "stationery"
+  },
+  {
+    "id": 11,
+    "name": "T-Shirt",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Tshirt.jpg",
+    "price": 24.99,
+    "type": "apparel"
+  },
+  {
+    "id": 12,
+    "name": "Cap",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Cap.jpg",
+    "price": 12.99,
+    "type": "apparel"
+  },
+  {
+    "id": 13,
+    "name": "Hoodie",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Hoodie.jpg",
+    "price": 39.99,
+    "type": "apparel"
+  },
+  {
+    "id": 14,
+    "name": "Calendar",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Calendar.jpg",
+    "price": 19.99,
+    "type": "stationery"
+  },
+  {
+    "id": 15,
+    "name": "Diary",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Diary.jpg",
+    "price": 25.99,
+    "type": "stationery"
+  },
+  {
+    "id": 16,
+    "name": "Keychain",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Keychain.jpg",
+    "price": 5.99,
+    "type": "gift"
+  },
+  {
+    "id": 17,
+    "name": "Pen",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Pen.jpg",
+    "price": 2.99,
+    "type": "stationery"
+  },
+  {
+    "id": 18,
+    "name": "Bookmark",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Bookmark.jpg",
+    "price": 3.99,
+    "type": "accessory"
+  },
+  {
+    "id": 19,
+    "name": "Lanyard",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Lanyard.jpg",
+    "price": 7.99,
+    "type": "accessory"
+  },
+  {
+    "id": 20,
+    "name": "Badge",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Badge.jpg",
+    "price": 4.99,
+    "type": "accessory"
+  },
+  {
+    "id": 21,
+    "name": "Coaster",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Coaster.jpg",
+    "price": 8.99,
+    "type": "gift"
+  },
+  {
+    "id": 22,
+    "name": "Wall Art",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/WallArt.jpg",
+    "price": 59.99,
+    "type": "banner"
+  },
+  {
+    "id": 23,
+    "name": "Brochure",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Brochure.jpg",
+    "price": 29.99,
+    "type": "stationery"
+  },
+  {
+    "id": 24,
+    "name": "Flyer",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Flyer.jpg",
+    "price": 19.99,
+    "type": "stationery"
+  },
+  {
+    "id": 25,
+    "name": "Canvas Bag",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Canvas-Bag.jpg",
+    "price": 15.99,
+    "type": "packaging"
+  },
+  {
+    "id": 26,
+    "name": "Laptop Sleeve",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Sleeve.jpg",
+    "price": 35.99,
+    "type": "gift"
+  },
+  {
+    "id": 27,
+    "name": "Phone Case",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/PhoneCase.jpg",
+    "price": 19.99,
+    "type": "accessory"
+  },
+  {
+    "id": 28,
+    "name": "Poster Frame",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Frame.jpg",
+    "price": 29.99,
+    "type": "banner"
+  },
+  {
+    "id": 29,
+    "name": "Bookmark Set",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/BookmarkSet.jpg",
+    "price": 9.99,
+    "type": "accessory"
+  },
+  {
+    "id": 30,
+    "name": "Bottle",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Bottle.jpg",
+    "price": 14.99,
+    "type": "gift"
+  },
+  {
+    "id": 31,
+    "name": "Gift Card",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/GiftCard.jpg",
+    "price": 50.00,
+    "type": "card"
+  },
+  {
+    "id": 32,
+    "name": "Certificate",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Certificate.jpg",
+    "price": 29.99,
+    "type": "stationery"
+  },
+  {
+    "id": 33,
+    "name": "Greeting Card",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/GreetingCard.jpg",
+    "price": 9.99,
+    "type": "card"
+  },
+  {
+    "id": 34,
+    "name": "Invitation Card",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/InvitationCard.jpg",
+    "price": 12.99,
+    "type": "card"
+  },
+  {
+    "id": 35,
+    "name": "Wristband",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Wristband.jpg",
+    "price": 5.99,
+    "type": "accessory"
+  },
+  {
+    "id": 36,
+    "name": "Name Tag",
+    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/NameTag.jpg",
+    "price": 3.99,
+    "type": "accessory"
+  }
+]
