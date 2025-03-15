@@ -11,6 +11,7 @@ import FlyersBrochures from './Left-side/Leftside-Pages/Flers&Brochures.tsx'
 import PostereBanners from './Left-side/Leftside-Pages/PostereBanners.tsx'
 import LogoDesign from './Left-side/Leftside-Pages/LogoDesign.tsx'
 import FlexBanner from './Left-side/Leftside-Pages/FlexBanner.tsx'
+import SinglePage from './Layout/SinglePage.tsx'
   const router = createBrowserRouter([
     {
       path: '/',
@@ -20,6 +21,11 @@ import FlexBanner from './Left-side/Leftside-Pages/FlexBanner.tsx'
           path: '/',
           element: <HomePage />,
         },
+        {
+          path: '/product/:id',
+          element: <SinglePage />,
+        },
+        
         
         {
           path: '/Navbar',

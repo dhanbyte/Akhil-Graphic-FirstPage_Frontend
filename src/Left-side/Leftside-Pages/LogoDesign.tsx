@@ -41,7 +41,7 @@ export default function LogoDesign() {
                   </div>
                   <Link to={`/product`} className="p-6">
                     <button className="w-[80%] py-2 rounded-xl border border-gray-300 text-gray-500 shadow-xl hover:bg-orange-400 hover:text-white transition">
-                      Add to Card
+                    View Details
                     </button>
                   </Link>
                 </div>

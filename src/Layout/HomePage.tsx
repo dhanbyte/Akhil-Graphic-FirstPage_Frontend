@@ -3,7 +3,7 @@ import OrderCards from "../Right-side files/OrderCards";
 import UsermainPage from "../Right-side files/UsermainPage";
 import WhatWeOffer from "../Right-side files/WhatWeOffer";
 import AnimatedWrapper from "../components/AnimatedWrapper" 
-
+import  products from "../JsonFiles/products.json";
 export default function HomePage() {
 
 
@@ -11,7 +11,7 @@ export default function HomePage() {
     <div className="md:pl-[15vw]">
            <AnimatedWrapper from="bottom">
             <UsermainPage />
-            <FeatureProducts />
+            <FeatureProducts products={products} />
             </AnimatedWrapper>
             <OrderCards />
             <WhatWeOffer/>
