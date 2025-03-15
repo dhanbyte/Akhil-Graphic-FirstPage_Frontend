@@ -26,13 +26,13 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="lg:text-xl items-center gap-4 hidden md:block cursor-pointer">
-        <Link to="/services">
+        <Link to="/PortfolioPage">
           
           <span>Portfolio </span>
           </Link>
         </div>
         <div className="lg:text-xl items-center gap-4 hidden md:block cursor-pointer">
-        <Link to="/services">
+        <Link to="/contact">
           
           <span>Contact Us</span>
           </Link>
@@ -48,19 +48,14 @@ const Navbar = () => {
             •
           </span>
         </FiBell>
-        <div className="flex items-center gap-2 cursor-pointer">
-          <img
-            src="https://demo.dashboardpack.com/architectui-html-pro/assets/images/avatars/1.jpg"
-            alt="Profile"
-            className="w-6 h-6 md:w-8 md:h-8 rounded-full"
-          />
-          <div>
-            <span className="hidden md:block  font-semibold">Kate Dudley</span>
-            <span className="text-xs hidden md:block  text-gray-500">
-              Administrator
-            </span>
+        
+          <div className="  ">
+            <Link to="/">
+            
+             <p className="text-white  font-bold bg-blue-500  rounded-full px-4 py-2 hover:bg-orange-500 "> Login ✌️</p>
+            </Link>
           </div>
-        </div>
+     
       </div>
     </header>
 

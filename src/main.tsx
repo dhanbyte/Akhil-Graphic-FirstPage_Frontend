@@ -12,8 +12,12 @@ import PostereBanners from './Left-side/Leftside-Pages/PostereBanners.tsx'
 import LogoDesign from './Left-side/Leftside-Pages/LogoDesign.tsx'
 import FlexBanner from './Left-side/Leftside-Pages/FlexBanner.tsx'
 import SinglePage from './Layout/SinglePage.tsx'
+import PortfolioPage from './Left-side/Leftside-Pages/PortfolioPage.tsx'
+import ContactPage from './Left-side/Leftside-Pages/ContactPage.tsx'
+import FAQPage from './Left-side/Leftside-Pages/FqaPage.tsx'
   const router = createBrowserRouter([
     {
+
       path: '/',
       element: <MainlayoutPage />,
       children: [
@@ -55,6 +59,19 @@ import SinglePage from './Layout/SinglePage.tsx'
           path:'/flexbanner',
           element:<FlexBanner/>
         },
+        {
+          path:'/PortfolioPage',
+          element:<PortfolioPage/>
+        },
+        {
+          path:'/contact',
+          element:<ContactPage/>
+        },
+        {
+          path:'/FAQPage',
+          element:<FAQPage/>
+        },
+
         
       ],
     },

@@ -88,6 +88,7 @@ export default function SinglePage() {
 
               {/* Product Description */}
               <p className="leading-relaxed">
+               {product.description}
               </p>
 
               {/* Product Color & Size Options */}

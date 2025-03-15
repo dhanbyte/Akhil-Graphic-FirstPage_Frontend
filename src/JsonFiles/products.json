@@ -4,251 +4,167 @@
     "name": "Book",
     "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Flex-Banner.jpg",
     "price": 29.99,
-    "type": "stationery"
+    "type": "stationery",
+    "description": "High-quality book ideal for writing and reading purposes."
   },
   {
     "id": 2,
     "name": "Flex Banner",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Mug.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204527.png?updatedAt=1742015803959",
     "price": 29.99,
-    "type": "banner"
+    "type": "banner",
+    "description": "Durable and vibrant banner for promotional activities."
   },
   {
     "id": 3,
     "name": "Carry Bag",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Carry-Bag.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204618.png?updatedAt=1742015807843",
     "price": 29.99,
-    "type": "packaging"
+    "type": "packaging",
+    "description": "Reusable and eco-friendly carry bag suitable for shopping."
   },
   {
     "id": 4,
     "name": "Envelope",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Envelope.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204558.png?updatedAt=1742015805052",
     "price": 29.99,
-    "type": "stationery"
+    "type": "stationery",
+    "description": "Premium quality envelope for professional correspondence."
   },
   {
     "id": 5,
     "name": "Business Card",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Business-Card.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204451.png?updatedAt=1742015801494",
     "price": 29.99,
-    "type": "card"
+    "type": "card",
+    "description": "Professional business card for personal or corporate use."
   },
   {
     "id": 6,
     "name": "Letterhead",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Letterhead.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204443.png?updatedAt=1742015800605",
     "price": 29.99,
-    "type": "stationery"
+    "type": "stationery",
+    "description": "Elegant letterhead designed for official documentation."
   },
   {
     "id": 7,
     "name": "Mug",
     "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Mug.jpg",
     "price": 29.99,
-    "type": "gift"
+    "type": "gift",
+    "description": "Stylish ceramic mug perfect for gifting and personal use."
   },
   {
     "id": 8,
     "name": "Poster",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Poster.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204510.png?updatedAt=1742015803187",
     "price": 19.99,
-    "type": "banner"
+    "type": "banner",
+    "description": "Eye-catching poster for events and promotions."
   },
   {
     "id": 9,
     "name": "Sticker",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Sticker.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204510.png?updatedAt=1742015803187",
     "price": 9.99,
-    "type": "accessory"
+    "type": "accessory",
+    "description": "Customizable sticker for branding and decoration."
   },
   {
     "id": 10,
     "name": "Notebook",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Notebook.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204354.png?updatedAt=1742015797123",
     "price": 15.99,
-    "type": "stationery"
+    "type": "stationery",
+    "description": "Handy notebook for notes, journaling, and ideas."
   },
   {
     "id": 11,
     "name": "T-Shirt",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Tshirt.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204347.png?updatedAt=1742015796923",
     "price": 24.99,
-    "type": "apparel"
+    "type": "apparel",
+    "description": "Comfortable and stylish T-shirt suitable for casual wear."
   },
   {
     "id": 12,
-    "name": "Cap",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Cap.jpg",
+    "name": "Logo Design",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204510.png?updatedAt=1742015803187",
     "price": 12.99,
-    "type": "apparel"
+    "type": "logo",
+    "description": "Trendy cap for casual outings and sports events."
   },
   {
     "id": 13,
-    "name": "Hoodie",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Hoodie.jpg",
+    "name": "T-Shirt",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204334.png?updatedAt=1742015797034",
     "price": 39.99,
-    "type": "apparel"
+    "type": "apparel",
+    "description": "Warm and cozy hoodie for everyday comfort."
   },
   {
     "id": 14,
-    "name": "Calendar",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Calendar.jpg",
+    "name": "Notebook",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204400.png?updatedAt=1742015798663",
     "price": 19.99,
-    "type": "stationery"
+    "type": "stationery",
+    "description": "Organizational calendar for efficient planning."
   },
   {
     "id": 15,
     "name": "Diary",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Diary.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204354.png?updatedAt=1742015797123",
     "price": 25.99,
-    "type": "stationery"
+    "type": "stationery",
+    "description": "Classic diary for personal reflections and notes."
   },
   {
     "id": 16,
-    "name": "Keychain",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Keychain.jpg",
+    "name": "Poster",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204354.png?updatedAt=1742015797123",
     "price": 5.99,
-    "type": "gift"
+    "type": "gift",
+    "description": "Compact keychain for convenient key organization."
   },
   {
     "id": 17,
-    "name": "Pen",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Pen.jpg",
+    "name": "Poster",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20203959.png?updatedAt=1742015788881",
     "price": 2.99,
-    "type": "stationery"
+    "type": "stationery",
+    "description": "Smooth-writing pen ideal for everyday use."
   },
   {
     "id": 18,
-    "name": "Bookmark",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Bookmark.jpg",
+    "name": "Business Card",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204119.png?updatedAt=1742015789086",
     "price": 3.99,
-    "type": "accessory"
+    "type": "accessory",
+    "description": "Stylish bookmark to enhance your reading experience."
   },
   {
     "id": 19,
     "name": "Lanyard",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Lanyard.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204111.png?updatedAt=1742015789076",
     "price": 7.99,
-    "type": "accessory"
+    "type": "accessory",
+    "description": "Durable lanyard perfect for ID cards and keys."
   },
   {
     "id": 20,
-    "name": "Badge",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Badge.jpg",
+    "name": "Menu Card",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204319.png?updatedAt=1742015796920",
     "price": 4.99,
-    "type": "accessory"
-  },
-  {
-    "id": 21,
-    "name": "Coaster",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Coaster.jpg",
-    "price": 8.99,
-    "type": "gift"
-  },
-  {
-    "id": 22,
-    "name": "Wall Art",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/WallArt.jpg",
-    "price": 59.99,
-    "type": "banner"
-  },
-  {
-    "id": 23,
-    "name": "Brochure",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Brochure.jpg",
-    "price": 29.99,
-    "type": "stationery"
-  },
-  {
-    "id": 24,
-    "name": "Flyer",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Flyer.jpg",
-    "price": 19.99,
-    "type": "stationery"
-  },
-  {
-    "id": 25,
-    "name": "Canvas Bag",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Canvas-Bag.jpg",
-    "price": 15.99,
-    "type": "packaging"
-  },
-  {
-    "id": 26,
-    "name": "Laptop Sleeve",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Sleeve.jpg",
-    "price": 35.99,
-    "type": "gift"
-  },
-  {
-    "id": 27,
-    "name": "Phone Case",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/PhoneCase.jpg",
-    "price": 19.99,
-    "type": "accessory"
-  },
-  {
-    "id": 28,
-    "name": "Poster Frame",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Frame.jpg",
-    "price": 29.99,
-    "type": "banner"
-  },
-  {
-    "id": 29,
-    "name": "Bookmark Set",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/BookmarkSet.jpg",
-    "price": 9.99,
-    "type": "accessory"
-  },
-  {
-    "id": 30,
-    "name": "Bottle",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Bottle.jpg",
-    "price": 14.99,
-    "type": "gift"
-  },
-  {
-    "id": 31,
-    "name": "Gift Card",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/GiftCard.jpg",
-    "price": 50.00,
-    "type": "card"
-  },
-  {
-    "id": 32,
-    "name": "Certificate",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Certificate.jpg",
-    "price": 29.99,
-    "type": "stationery"
-  },
-  {
-    "id": 33,
-    "name": "Greeting Card",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/GreetingCard.jpg",
-    "price": 9.99,
-    "type": "card"
-  },
-  {
-    "id": 34,
-    "name": "Invitation Card",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/InvitationCard.jpg",
-    "price": 12.99,
-    "type": "card"
-  },
-  {
-    "id": 35,
-    "name": "Wristband",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/Wristband.jpg",
-    "price": 5.99,
-    "type": "accessory"
+    "type": "accessory",
+    "description": "Custom badge suitable for events and identification."
   },
   {
     "id": 36,
     "name": "Name Tag",
-    "image": "https://akhilgraphics.in/wp-content/uploads/2021/11/NameTag.jpg",
+    "image": "https://ik.imagekit.io/b5qewhvhb/Screenshot%202025-03-13%20204539.png?updatedAt=1742015804029",
     "price": 3.99,
-    "type": "accessory"
+    "type": "accessory",
+    "description": "Durable and customizable name tag perfect for events, businesses, and personal identification."
   }
 ]

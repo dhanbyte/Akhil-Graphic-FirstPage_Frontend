@@ -16,15 +16,19 @@ export default function FlexBanner() {
       {/* cards  */}
 
       <div className=" w-full space-y-6">
-        <h1 className="text-3xl font-bold text-center text-orange-600 mb-6">
-          What We Offers
-        </h1>
+      <AnimatedWrapper from="bottom">
+
+<h1 className="text-3xl font-bold text-center text-orange-600 mb-6">
+  What We Offers
+</h1>
+</AnimatedWrapper>
+
 
         <div className="flex flex-wrap justify-center py-8 gap-6">
           {products
-            .filter((product) => product.id >= 21 && product.id <= 32)
+            .filter((product) => product.id >= 9 && product.id <= 20)
             .map((product: any) => (
-              <AnimatedWrapper from="bottom">
+                <AnimatedWrapper from="bottom">
                 <div
                   key={product.id}
                   className="w-[250px] h-[350px] shadow border-amber-600 rounded-md overflow-hidden bg-white hover:shadow-2xl transition-shadow duration-200"
@@ -38,8 +42,12 @@ export default function FlexBanner() {
                     <h2 className="text-lg font-semibold text-gray-800">
                       {product.name}
                     </h2>
+                    
+                    <p className="text-sm text-gray-500 mt-2">
+                    {product.description}
+                  </p>
                   </div>
-                  <Link to={`/product`} className="p-6">
+                  <Link to={`/product/${product.id}`} className="p-6">
                     <button className="w-[80%] py-2 rounded-xl border border-gray-300 text-gray-500 shadow-xl hover:bg-orange-400 hover:text-white transition">
                     View Details
                     </button>

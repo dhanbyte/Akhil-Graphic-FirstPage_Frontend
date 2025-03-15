@@ -1,20 +1,19 @@
 import { Link } from "react-router-dom";
 import AnimatedWrapper from "../components/AnimatedWrapper";
+import products from "../JsonFiles/products.json";
 
-type Product = {
-  id: number;
-  name: string;
-  image: string;
-  price?: number;
-  description?: string;
-};
 
-export default function FeatureProducts({ products }: { products: Product[] }) {
+
+export default function FeatureProducts() {
   return (
     <div className="p-4 md:p-8 w-full space-y-6">
+      <AnimatedWrapper from="bottom">
+
       <h1 className="text-2xl md:text-3xl font-bold text-center mb-4 md:mb-6">
+
         Featured Products
       </h1>
+      </AnimatedWrapper>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products
@@ -31,8 +30,9 @@ export default function FeatureProducts({ products }: { products: Product[] }) {
                   <h2 className="text-base md:text-lg font-semibold text-gray-800">
                     {product.name}
                   </h2>
+               
                   <p className="text-sm text-gray-500 mt-2">
-                    {product.description || "High-quality product perfect for diverse business needs."}
+                    {product.description}
                   </p>
                 </div>
                 <div className="px-3 pb-4">

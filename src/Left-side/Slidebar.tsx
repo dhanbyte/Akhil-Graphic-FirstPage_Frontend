@@ -103,7 +103,7 @@ export default function Sidebar() {
                   className="cursor-pointer flex justify-between w-full px-4 py-2 hover:bg-gray-100 rounded"
                 >
                   <span className="flex items-center gap-2.5 text-sm">
-                    <MdOutlineFavoriteBorder />Orders & Support
+                    <MdOutlineFavoriteBorder />Our Services
                   </span>
                   <motion.div animate={{ rotate: order ? 180 : 0 }} transition={{ duration: 0.3 }}>
                     <FiChevronDown />
@@ -112,22 +112,22 @@ export default function Sidebar() {
 
                 {order && (
                   <div>
-                    <Link to="/customerdetails" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/services" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
-                        <FaUsers /> My Orders
+                        <FaUsers /> Service
                       </span>
                     </Link>
-                    <Link to="/billing" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/PortfolioPage" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
-                        <FaMoneyBillTransfer /> Track Order
+                        <FaMoneyBillTransfer />Portfolio
                       </span>
                     </Link>
-                    <Link to="/invoice" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/FAQPage" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
                         <AiOutlineProduct /> FAQs
                       </span>
                     </Link>
-                    <Link to="/invoice" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link to="/contact" className="block px-4 py-2 hover:bg-gray-100">
                       <span className="flex items-center gap-3">
                         <AiOutlineProduct /> Support Center
 
@@ -141,26 +141,24 @@ export default function Sidebar() {
 
           {/* Applications Section */}
           <h2 className="text-sm font-semibold text-gray-400 mt-4 mb-2">APPLICATIONS</h2>
-          <Link to="/calendar" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
+          <Link to="/services" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
             <FiCalendar /> <span className="flex-1">
           Web Design Services</span>
           </Link>
 
-          <Link to="/chat" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
+          <Link to="/PortfolioPage" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
             <FiMessageSquare /> <span className="flex-1">Creative Resources</span>
             <span className="bg-red-200 text-red-600 text-xs px-2 py-1 rounded-full">Hot</span>
           </Link>
 
-          <Link to="/kanban" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
+          <Link to="/services" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
             <FiColumns /> <span className="flex-1">Promotions</span>
           </Link>
 
-          <Link to="/filemanager" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
-            <FiFolder /> <span className="flex-1">Insights </span>
-          </Link>
+          
 
           <h2 className="text-sm font-semibold text-gray-400 mt-4 mb-2">Help & Support</h2>
-          <Link to="/horizontal" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
+          <Link to="/contact" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
             <FiLayout /> <span>Get a Quote</span>
           </Link>
           <Link to="/horizontal" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">

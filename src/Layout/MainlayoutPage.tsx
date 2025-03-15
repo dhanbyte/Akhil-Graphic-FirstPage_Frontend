@@ -1,9 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Leftside from "../Left-side/Leftside";
+import ScrollToTop from "../components/ScrollToTop";
 export default function MainlayoutPage() {
   return (
     <div className="flex flex-col h-screen">
+      <ScrollToTop />
     <div className="fixed top-0 left-0 w-full z-10 bg-white shadow-sm">
     <Navbar />
 
