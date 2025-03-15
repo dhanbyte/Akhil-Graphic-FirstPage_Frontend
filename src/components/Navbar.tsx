@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
    
-    <header className="flex  justify-between items-center bg-white  text-gray-700  px-6 pr-12 shadow-sm ">
+    <header className="flex  justify-between items-center bg-white  text-gray-700  px-4 pr-8 pt-1.5 pb-2.5 lg:pt-1 lg:pb-1 shadow-sm ">
       {/* Left Section */}
       <div className="flex items-center  gap-4 ">
         <img
@@ -41,18 +41,18 @@ const Navbar = () => {
 
       {/* Right Section */}
       <div className="flex items-center gap-4">
-        <FiSearch className="text-gray-600 text-sm md:text-lg cursor-pointer" />
-        <FiGrid className="text-gray-600 text-sm md:text-lg cursor-pointer" />
-        <FiBell className="text-gray-600 text-sm md:text-lg cursor-pointer relative">
-          <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full px-1">
+       <FiGrid className="text-gray-600 text-sm md:text-lg cursor-pointer" />
+        <FiBell className="text-gray-600 text-sm md:text-lg cursor-pointer hidden md:block relative">
+          <span className="absolute -top-1 -right-1 bg-red-500 text-white hidden md:block text-xs rounded-full px-1">
             •
           </span>
         </FiBell>
         
-          <div className="  ">
+          <div className=" text-center text-sm rounded-2xl  ">
             <Link to="/">
             
-             <p className="text-white  font-bold bg-blue-500  rounded-full px-4 py-2 hover:bg-orange-500 "> Login ✌️</p>
+             <p className="text-white  font-bold bg-blue-500 justify-center text-sm  rounded-full px-3 py-2  hover:bg-orange-500 "> Login ✌️</p>
+
             </Link>
           </div>
      

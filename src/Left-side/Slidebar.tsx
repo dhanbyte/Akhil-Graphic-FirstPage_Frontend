@@ -6,7 +6,6 @@ import {
   FiCalendar,
   FiMessageSquare,
   FiColumns,
-  FiFolder,
   FiLayout,
   FiChevronDown,
 } from "react-icons/fi";
@@ -161,7 +160,7 @@ export default function Sidebar() {
           <Link to="/contact" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
             <FiLayout /> <span>Get a Quote</span>
           </Link>
-          <Link to="/horizontal" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
+          <Link to="/about" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100">
             <FiLayout /> <span>About Us</span>
           </Link>
 

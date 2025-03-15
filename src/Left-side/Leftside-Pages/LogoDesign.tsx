@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import AnimatedWrapper from "../../components/AnimatedWrapper";
 import products from "../../JsonFiles/products.json";
-import OrderCards from "../../Right-side files/OrderCards";
+import AboutPage from "./AboutPage";
 export default function LogoDesign() {
   return (
     <div className="lg:pl-[16vw] lg:p-8  ">
@@ -57,7 +57,7 @@ export default function LogoDesign() {
       </div>
       {/* cards end */}
       
-      <OrderCards/>
+      <AboutPage/>
 
     </div>
   );

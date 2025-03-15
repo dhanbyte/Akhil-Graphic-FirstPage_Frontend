@@ -59,7 +59,7 @@ export default function BusinessCards() {
       </div>
       {/* cards end */}
       
-      <OrderCards/>
+      
 
     </div>
   );

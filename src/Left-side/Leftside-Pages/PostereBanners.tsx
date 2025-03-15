@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import AnimatedWrapper from "../../components/AnimatedWrapper";
 import products from "../../JsonFiles/products.json";
-import OrderCards from "../../Right-side files/OrderCards";
 export default function PostereBanners() {
   return (
     <div className="lg:pl-[16vw] lg:p-8  ">
@@ -59,7 +58,7 @@ export default function PostereBanners() {
       </div>
       {/* cards end */}
       
-      <OrderCards/>
+      
 
     </div>
   );

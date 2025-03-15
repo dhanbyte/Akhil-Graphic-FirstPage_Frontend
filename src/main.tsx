@@ -15,6 +15,7 @@ import SinglePage from './Layout/SinglePage.tsx'
 import PortfolioPage from './Left-side/Leftside-Pages/PortfolioPage.tsx'
 import ContactPage from './Left-side/Leftside-Pages/ContactPage.tsx'
 import FAQPage from './Left-side/Leftside-Pages/FqaPage.tsx'
+import AboutPage from './Left-side/Leftside-Pages/AboutPage.tsx'
   const router = createBrowserRouter([
     {
 
@@ -70,6 +71,10 @@ import FAQPage from './Left-side/Leftside-Pages/FqaPage.tsx'
         {
           path:'/FAQPage',
           element:<FAQPage/>
+        },
+        {
+          path:'/about',
+          element:<AboutPage/>
         },
 
         

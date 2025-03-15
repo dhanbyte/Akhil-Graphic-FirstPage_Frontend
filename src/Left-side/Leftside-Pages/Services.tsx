@@ -30,44 +30,48 @@ const moreServices = [
 
 export default function ServicesPage() {
   return (
-    <div className="p-4 lg:pl-[22vw] md:p-6 space-y-12">
-
-      <h1 className="text-4xl font-bold text-center">
+    <div className="p-4 md:p-6 lg:pl-[22vw] space-y-12">
+      <h1 className="text-3xl md:text-4xl font-bold text-center">
         These Are Our <span className="text-yellow-500">Services</span>
       </h1>
 
       {services.map((service) => (
-        <div key={service.id} className="grid py-[6vh] md:grid-cols-2 gap-6 items-center">
+        <div key={service.id} className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center py-6">
           <AnimatedWrapper from="left">
-          <div>
-            <h2 className="text-5xl text-blue-950 py-[6vh] font-bold mb-2">{service.title}</h2>
-            <p className="text-gray-700">{service.description}</p>
-         
-          </div>
+            <div>
+              <h2 className="text-2xl md:text-4xl text-blue-950 font-bold mb-4">
+                {service.title}
+              </h2>
+              <p className="text-gray-700 text-sm md:text-base">
+                {service.description}
+              </p>
+            </div>
           </AnimatedWrapper>
-        
+
           <AnimatedWrapper from="right">
-
-          <img 
-            src={service.image} 
-            alt={service.title} 
-            className="rounded-lg  shadow-md  h-[40vh] w-[30vw]" 
-          />
-                </AnimatedWrapper>
-
+            <img
+              src={service.image}
+              alt={service.title}
+              className="rounded-lg shadow-md h-[200px] md:h-[300px] w-full object-cover"
+            />
+          </AnimatedWrapper>
         </div>
       ))}
-      <AnimatedWrapper from="bottom">
 
-      <div>
-        <h2 className="text-3xl font-bold text-center mb-4">World-Class Design At Your Service</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {moreServices.map((item, index) => (
-            <p key={index} className="text-gray-600 hover:text-orange-600 ">- {item}</p>
-          ))}
+      <AnimatedWrapper from="bottom">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+            World-Class Design At Your Service
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 md:gap-4">
+            {moreServices.map((item, index) => (
+              <p key={index} className="text-gray-600 hover:text-orange-600 text-xs md:text-sm">
+                - {item}
+              </p>
+            ))}
+          </div>
         </div>
-      </div>
-          </AnimatedWrapper>
+      </AnimatedWrapper>
     </div>
   );
 }

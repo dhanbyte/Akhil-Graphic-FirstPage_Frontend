@@ -2,25 +2,21 @@ import { Link } from "react-router-dom";
 import AnimatedWrapper from "../components/AnimatedWrapper";
 import products from "../JsonFiles/products.json";
 
-
-
 export default function FeatureProducts() {
   return (
     <div className="p-4 md:p-8 w-full space-y-6">
       <AnimatedWrapper from="bottom">
-
-      <h1 className="text-2xl md:text-3xl font-bold text-center mb-4 md:mb-6">
-
-        Featured Products
-      </h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-center mb-4 md:mb-6">
+          Featured Products
+        </h1>
       </AnimatedWrapper>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
         {products
           .filter((product) => product.id >= 1 && product.id <= 20)
           .map((product) => (
             <AnimatedWrapper key={product.id} from="bottom">
-              <div className="w-full max-w-[250px] h-auto md:h-[380px] shadow border border-gray-200 rounded-lg overflow-hidden bg-white hover:shadow-2xl transition-shadow duration-300">
+              <div className="w-full max-w-full sm:max-w-[300px] md:max-w-[250px] h-auto md:h-[380px] shadow border border-gray-200 rounded-lg overflow-hidden bg-white hover:shadow-2xl transition-shadow duration-300">
                 <img
                   src={product.image}
                   alt={product.name}
@@ -30,8 +26,7 @@ export default function FeatureProducts() {
                   <h2 className="text-base md:text-lg font-semibold text-gray-800">
                     {product.name}
                   </h2>
-               
-                  <p className="text-sm text-gray-500 mt-2">
+                  <p className="text-sm text-gray-500 mt-2 line-clamp-3">
                     {product.description}
                   </p>
                 </div>
@@ -49,6 +44,3 @@ export default function FeatureProducts() {
     </div>
   );
 }
-
-// Example product data with descriptions
-

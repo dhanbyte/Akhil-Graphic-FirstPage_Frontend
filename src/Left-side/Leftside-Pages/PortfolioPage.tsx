@@ -1,5 +1,4 @@
 import { FaDownload } from "react-icons/fa";
-import OrderCards from "../../Right-side files/OrderCards";
 import WhatWeOffer from "../../Right-side files/WhatWeOffer";
 import AnimatedWrapper from "../../components/AnimatedWrapper";
 
@@ -114,7 +113,7 @@ export default function PortfolioPage() {
           ))}
         </div>
 
-        <OrderCards />
+        
         <WhatWeOffer />
       </div>
     </div>

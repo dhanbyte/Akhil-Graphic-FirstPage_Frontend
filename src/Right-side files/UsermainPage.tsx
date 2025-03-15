@@ -1,29 +1,30 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const productGroups = [
   [
     {
       name: "Stopper-Compl Bobbin Rod",
       brand: "Toyota",
-      link: "#",
+      link: "/product/1",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/Book.jpg",
     },
     {
       name: "IRO2231 Weft Storage",
       brand: "Staubli",
-      link: "#",
+      link: "/product/2",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/Mug.jpg",
     },
     {
       name: "Staubli Jacquard Hook 1",
       brand: "Staubli",
-      link: "#",
+      link: "/product/3",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/T-Shirt.jpg",
     },
     {
       name: "Encoder Part",
       brand: "Tsudakoma",
-      link: "#",
+      link: "/product/4",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/3.jpg",
     },
   ],
@@ -31,25 +32,25 @@ const productGroups = [
     {
       name: "Weaving Beam",
       brand: "Picanol",
-      link: "#",
+      link: " /product/5",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/2.jpg",
     },
     {
       name: "Yarn Cutter",
       brand: "Toyota",
-      link: "#",
+      link: "/product/6",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/Logo-Design.jpg",
     },
     {
       name: "Tension Spring",
       brand: "Staubli",
-      link: "#",
+      link: "/product/7",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/Sticker.jpg",
     },
     {
       name: "Loom Sensor",
       brand: "Tsudakoma",
-      link: "#",
+      link: " /product/8",
       image: "https://akhilgraphics.in/wp-content/uploads/2021/11/Packaging-Box.jpg",
     },
   ],
@@ -66,8 +67,8 @@ export default function PremiumTextileParts() {
   }, []);
 
   return (
-    <div className="p-4 md:p-8 bg-gradient-to-r from-gray-100 to-gray-200 gap-5">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div className=" md:p-8 bg-gradient-to-r from-gray-100 to-gray-200 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ">
         {/* Product Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {productGroups[currentGroup].map((product, index) => (
@@ -98,7 +99,7 @@ export default function PremiumTextileParts() {
             </span>
           </div>
 
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+          <h2 className="text-2xl md:text-3xl py-2 font-bold text-gray-800">
             Crafting Creative <span className="text-orange-500">Visuals with Impact</span>
           </h2>
           <p className="text-gray-600 text-sm md:text-base">For Your Business</p>
@@ -118,13 +119,17 @@ export default function PremiumTextileParts() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-4">
-            <button className="w-full py-2 rounded-xl border border-gray-300 text-gray-500 shadow hover:bg-orange-400 hover:text-white transition">
+          <div className="flex flex-col md:flex-row py-4 gap-4">
+            <Link to="/contact" className="w-full py-2 rounded-xl border text-center border-gray-300 text-gray-500 shadow hover:bg-orange-400 hover:text-white transition"> 
+          
               Get Best Quote
-            </button>
-            <button className="w-full py-2 rounded-xl border border-gray-300 text-gray-500 shadow hover:bg-blue-400 hover:text-white transition">
+           
+            </Link>
+            <Link to="/services" className="w-full py-2 rounded-xl border text-center border-gray-300 text-gray-500 shadow hover:bg-blue-400 hover:text-white transition" >
+         
               View Catalogue
-            </button>
+           
+            </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

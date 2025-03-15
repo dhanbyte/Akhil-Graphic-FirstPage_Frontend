@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <div className="p-8 md:p-16 space-y-16 lg:pl-[20vw] bg-gray-100">
           <AnimatedWrapper from="bottom">     <div className="bg-blue-900 text-white text-center py-16 rounded-lg shadow-xl">
-        <h1 className="text-6xl font-extrabold">Contact Aakil Graphics</h1>
+        <h1 className="lg:text-6xl text-2xl font-extrabold">Contact Aakil Graphics</h1>
     
         <p className="mt-6 text-2xl">We'd love to hear from you! Reach out for any inquiries or services.</p>
  
