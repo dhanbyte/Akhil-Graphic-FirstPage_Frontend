@@ -1,4 +1,4 @@
-import { FiSearch, FiGrid, FiBell, } from "react-icons/fi";
+import {FiGrid, FiBell, } from "react-icons/fi";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
@@ -49,7 +49,7 @@ const Navbar = () => {
         </FiBell>
         
           <div className=" text-center text-sm rounded-2xl  ">
-            <Link to="/">
+            <Link to="/login">
             
              <p className="text-white  font-bold bg-blue-500 justify-center text-sm  rounded-full px-3 py-2  hover:bg-orange-500 "> Login ✌️</p>
 

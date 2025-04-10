@@ -76,6 +76,7 @@ import AboutPage from './Left-side/Leftside-Pages/AboutPage.tsx'
           path:'/about',
           element:<AboutPage/>
         },
+    
 
         
       ],
