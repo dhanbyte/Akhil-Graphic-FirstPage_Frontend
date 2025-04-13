@@ -1,6 +1,7 @@
 import {FiGrid, FiBell, } from "react-icons/fi";
 import { Link } from "react-router-dom";
 const Navbar = () => {
+
   return (
    
     <header className="flex  justify-between items-center bg-white  text-gray-700  px-4 pr-8 pt-1.5 pb-2.5 lg:pt-1 lg:pb-1 shadow-sm ">
@@ -49,11 +50,11 @@ const Navbar = () => {
         </FiBell>
         
           <div className=" text-center text-sm rounded-2xl  ">
-            <Link to="/login">
-            
+          <a href="https://akhil-graphic-secondpage.onrender.com" target="_blank" rel="noopener noreferrer">
+ 
              <p className="text-white  font-bold bg-blue-500 justify-center text-sm  rounded-full px-3 py-2  hover:bg-orange-500 "> Login ✌️</p>
 
-            </Link>
+            </a>
           </div>
      
       </div>
